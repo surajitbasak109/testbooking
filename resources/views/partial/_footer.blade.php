@@ -1,6 +1,6 @@
 {{-- start of footer --}}
 <footer id="footer" class="footer bg-theme py-3 text-white">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row text-center text-lg-start">
       <div class="col-lg-6">
         &copy; Copyright 2020 <a href="{{ url('/') }}">{{ config('app.name') }}</a>
@@ -11,4 +11,6 @@
     </div>
   </div>
 </footer>
+
+@stack('js')
 {{-- end of footer --}}
