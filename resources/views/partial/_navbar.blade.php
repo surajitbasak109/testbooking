@@ -1,6 +1,6 @@
 {{-- navigation --}}
 <nav id="topNav" class="navbar navbar-fixed navbar-expand-lg bg-theme navbar-dark">
-  <div class="container">
+  <div class="container-fluid">
     <a href="{{ url('/') }}" class="navbar-brand">{{ config('app.name') }}</a>
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>

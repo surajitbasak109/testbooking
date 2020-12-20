@@ -1,4 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+
+body {
+  background-color: #e3e8ee;
+}
 
 .bg-purple {
   background-color: #8e24aa;
@@ -12,10 +17,41 @@
   resize: none;
 }
 
-.card-title {
-  font-size: 1.1rem;
-  margin-bottom: 0;
-  font-weight: normal;
+.s_table {
+  overflow-x: visible;
+}
+
+.card {
+  .card-header {
+    background-color: #fff;
+    .card-title {
+      font-size: 1.1rem;
+      margin-bottom: 0;
+      font-weight: normal;
+    }
+  }
+}
+
+.table {
+  &.items {
+    thead {
+      background: #415164;
+      color: #fff;
+      border: 0;
+      tr {
+        th {
+          min-width: 100px;
+          font-weight: 400;
+          vertical-align: middle;
+          border: 0;
+          color: #fff;
+          font-weight: 400 !important;
+          padding: 8px 10px;
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
 }
 
 .footer {
@@ -24,6 +60,7 @@
   left: 0;
   width: 100%;
   z-index: 9999;
+  font-size: 0.8rem;
   a {
     color: aqua;
     text-decoration: none;
